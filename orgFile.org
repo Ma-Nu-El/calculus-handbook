@@ -28,6 +28,6 @@ f'(x_o)=\lim_{h \to 0}
 \]
 
 * Local variables :noexport:
-  # Local Variables:
-  # ispell-local-dictionary: "espanol"
-  # End:
+# Local Variables:
+# ispell-local-dictionary: "espanol"
+# End:
