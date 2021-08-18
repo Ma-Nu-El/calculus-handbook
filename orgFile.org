@@ -2,10 +2,16 @@
 :ID:       e5e3bb53-b9e1-49d0-9ac7-5a77d5f534d0
 :END:
 #+TITLE: Org File
+#+LANGUAGE: es
+#+OPTIONS: toc:3
 
-#+EXCLUDE_TAGS: noexport
+:LATEX_PREAMBLE:
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS: [a4paper,11pt,twoside,twocolumn]
+:END:
+
+* TOC :TOC_2:noexport:
+- [[#definición][Definición]]
 
 * Definición
 Sea \(f(x)\) definida en un punto \(x_o\) de \((a,b)\). Se define la derivada de
