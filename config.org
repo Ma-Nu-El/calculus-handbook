@@ -1,0 +1,12 @@
+:ORG_PREAMBLE:
+#+TITLE: Rodrigo Hidalgo Barra's Ejercicios Resueltos de Calculo Integral (English)
+#+SUBTITLE: Orgmode Adaptation
+#+AUTHOR: [[mailto:manuel.fuica.morales@gmail.com][manuel.fuica.morales@gmail.com]]
+#+LANGUAGE: es
+#+OPTIONS: toc:3
+#+DATE: September 2021
+:END:
+:LATEX_PREAMBLE:
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt]
+:END:

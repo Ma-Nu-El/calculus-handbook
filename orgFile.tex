@@ -1,6 +1,6 @@
-% Created 2021-05-10 Mon 15:06
+% Created 2021-09-01 Wed 00:45
 % Intended LaTeX compiler: pdflatex
-\documentclass[a4paper,11pt,twoside,twocolumn]{article}
+\documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -14,29 +14,177 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\author{Manuel Fuica Morales}
-\date{\today}
-\title{Org File}
+\author{\href{mailto:manuel.fuica.morales@gmail.com}{manuel.fuica.morales@gmail.com}}
+\date{September 2021}
+\title{Rodrigo Hidalgo Barra's Ejercicios Resueltos de Calculo Integral (English)\\\medskip
+\large Orgmode Adaptation}
 \hypersetup{
- pdfauthor={Manuel Fuica Morales},
- pdftitle={Org File},
+ pdfauthor={\href{mailto:manuel.fuica.morales@gmail.com}{manuel.fuica.morales@gmail.com}},
+ pdftitle={Rodrigo Hidalgo Barra's Ejercicios Resueltos de Calculo Integral (English)},
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 27.1 (Org mode 9.5)}, 
- pdflang={English}}
+ pdflang={Spanish}}
 \begin{document}
 
 \maketitle
-\tableofcontents \clearpage
-\section{Definición}
-\label{sec:orgcd5626d}
-Sea \(f(x)\) definida en un punto \(x_o\) de \((a,b)\). Se define la derivada de
-\(f(x)\) en \(x=x_o\) como
+\setcounter{tocdepth}{3}
+\tableofcontents
 
-\[
-f'(x_o)=\lim_{h \to 0}
-\frac
-{f(x_o+h) - f(x_o)}
-{h}
-\]
+
+\section{Abstract}
+\label{sec:orgf2d7d35}
+
+This is a journal of calculus problems made to practice calculus notation on
+Latex, based on Rodrigo Hidalgo Barra's Ejercicios Resueltos de Cálculo
+Integral (Solved Integral Calculus Problems); handbook that has been added
+a chapter of derivatives post publishing.
+
+\section{Introduction}
+\label{sec:orgc270800}
+
+This document's object is to support the material seen in classes by
+handling a variety of integral calculus and infinite series problems.
+Despite theorems and formulae are briefed they are not demonstrated, they
+are only applied without further analysis.
+
+The first chapter possesses 120 undefined integrals solved by classic
+different integration methods. Second chapter accounts The Two Fundamental
+Calculus Theorems and their applications. Third chapter consists of
+problematic integrals concerning improper integrals, convergence criteria
+and beta/gamma functions. Lastly, in the fourth chapter Infinite Series
+and their convergence criteria are approached.
+
+[Note that a chapter of derivatives has been added to this particular
+handbook after purchase, chapter that has been placed first thing in order
+to correspond the way it is taught in the first semesters of a regular
+engineering degree].
+
+\hfill Adaption of actual handbook's Introduction.
+
+\hfill May 26, 2019, Sunday.
+
+\newpage
+
+\section{Derivative}
+\label{sec:orgf955146}
+\subsection{Definition}
+\label{sec:org5e4c934}
+\subsection{Semi Derivative}
+\label{sec:org47837b8}
+\subsection{Derivability and Continuity}
+\label{sec:org58a7738}
+\subsection{High Order Derivatives}
+\label{sec:org1c71cf7}
+\subsection{Interpretation of a Derivative}
+\label{sec:org6a07de3}
+\subsection{Basic Derivation Rules}
+\label{sec:org9766280}
+\subsection{Implicit Derivatives}
+\label{sec:org3a91aca}
+\subsection{Exponential and Logarithmic Derivatives}
+\label{sec:orgcab42b7}
+\subsection{Trigonometric Derivatives}
+\label{sec:org9434db5}
+\subsection{Inverse Trigonometric Derivatives}
+\label{sec:org4842586}
+\subsection{Parametric Derivatives}
+\label{sec:org5edea0c}
+\subsection{L'H$\backslash$\textsuperscript{opital}'s Rule}
+\label{sec:org372b69e}
+\subsection{Solved Problems}
+\label{sec:org1e39301}
+\subsection{Applications}
+\label{sec:orgfaec3bc}
+\subsection{Critic Point}
+\label{sec:org5d14c9b}
+\subsection{Growth and Decay}
+\label{sec:orgfbd09a9}
+\subsection{Concavity}
+\label{sec:org1957cd2}
+\subsection{Local and Relative Extrema}
+\label{sec:org4e872c7}
+\subsection{Absolute Maximum and Minimum}
+\label{sec:orgde63d6c}
+\subsection{Asymptote}
+\label{sec:org6c95a58}
+\subsection{Solved Problems}
+\label{sec:org794ad8e}
+
+\newpage
+
+\section{Indefinite Integral}
+\label{sec:orgc07b5ce}
+\subsection{Differential}
+\label{sec:org5f608cc}
+\subsection{Direct}
+\label{sec:orga7e8ebe}
+\subsection{Substitution}
+\label{sec:org5277ea5}
+\subsection{By Parts}
+\label{sec:orgb6e5db8}
+\subsection{Trigonometric Functions}
+\label{sec:org309dc63}
+\subsection{Trigonometric Substitution}
+\label{sec:org14587bb}
+\subsection{Partial Fractions}
+\label{sec:org7efd929}
+\subsection{Irrational Functions}
+\label{sec:org75f9e88}
+\subsection{t=tg(\$\(\theta\)\$$\backslash$,/2)}
+\label{sec:orgcf214a6}
+\subsection{Solved Problems}
+\label{sec:org5ab093e}
+
+\newpage
+
+\section{Applications}
+\label{sec:orge3e9222}
+\subsection{Riemann Sum}
+\label{sec:org96b9807}
+\subsection{First Fundamental Theorem of Calculus}
+\label{sec:orgea4d906}
+\subsection{Second Fundamental Theorem of Calculus}
+\label{sec:orgc2eac28}
+\subsection{Mean Value Theorem}
+\label{sec:orgb4e1a70}
+\subsection{Area}
+\label{sec:orgcd264fa}
+\subsection{Arc Length}
+\label{sec:orgdf88967}
+\subsection{Solid of Revolution}
+\label{sec:org8a1435e}
+\subsection{Surface of Revolution}
+\label{sec:orgca1affc}
+\subsection{Momentum - Centroid}
+\label{sec:org273d8ac}
+\subsection{Pappus's Theorem}
+\label{sec:orgbf63804}
+
+\newpage
+
+\section{Improper Integral}
+\label{sec:orgbe8be4e}
+\subsection{Convergence Definition}
+\label{sec:orgfa6b806}
+\subsection{Convergence Criteria}
+\label{sec:org0562ea5}
+\subsection{Gamma Function}
+\label{sec:orge3cb25c}
+\subsection{Beta Function}
+\label{sec:org27a750f}
+\section{Infinite Series}
+\label{sec:orgf3b64dd}
+\subsection{Definition}
+\label{sec:orgb01972d}
+\subsection{Infinite Series}
+\label{sec:org72ba9fe}
+\subsection{Geometric Series}
+\label{sec:org68a3bc3}
+\subsection{Telescoping Series}
+\label{sec:orgf498b86}
+\subsection{Convergence Criteria}
+\label{sec:org356c24a}
+\subsection{Convergence of a Series}
+\label{sec:org30eda1d}
 \end{document}

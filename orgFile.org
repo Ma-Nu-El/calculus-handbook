@@ -1,39 +1,143 @@
 :PROPERTIES:
 :ID:       e5e3bb53-b9e1-49d0-9ac7-5a77d5f534d0
 :END:
-#+TITLE: Org File
-#+LANGUAGE: es
-#+OPTIONS: toc:3
-
-:LATEX_PREAMBLE:
-#+LATEX_CLASS: article
-#+LATEX_CLASS_OPTIONS: [a4paper,11pt,twoside,twocolumn]
-:END:
+#+INCLUDE: "config.org"
 
 * TOC :TOC_2:noexport:
-- [[#definición][Definición]]
+- [[#abstract][Abstract]]
+- [[#introduction][Introduction]]
+- [[#derivative][Derivative]]
+  - [[#definition][Definition]]
+  - [[#side-derivative][Side Derivative]]
+  - [[#derivability-and-continuity][Derivability and Continuity]]
+  - [[#higher-order-derivatives][Higher Order Derivatives]]
+  - [[#interpretation-of-a-derivative][Interpretation of a Derivative]]
+  - [[#basic-derivation-rules][Basic Derivation Rules]]
+  - [[#implicit-derivatives][Implicit Derivatives]]
+  - [[#exponential-and-logarithmic-derivatives][Exponential and Logarithmic Derivatives]]
+  - [[#trigonometric-derivatives][Trigonometric Derivatives]]
+  - [[#inverse-trigonometric-derivatives][Inverse Trigonometric Derivatives]]
+  - [[#parametric-derivatives][Parametric Derivatives]]
+  - [[#lhopitals-rule][L'H\^opital's Rule]]
+  - [[#solved-problems][Solved Problems]]
+  - [[#applications][Applications]]
+- [[#indefinite-integral][Indefinite Integral]]
+  - [[#differential][Differential]]
+  - [[#direct][Direct]]
+  - [[#substitution][Substitution]]
+  - [[#by-parts][By Parts]]
+  - [[#trigonometric-functions][Trigonometric Functions]]
+  - [[#trigonometric-substitution][Trigonometric Substitution]]
+  - [[#partial-fractions][Partial Fractions]]
+  - [[#irrational-functions][Irrational Functions]]
+  - [[#substitution-ttgtheta2][Substitution: t=tg($\theta$\,/2)]]
+  - [[#solved-problems-1][Solved Problems]]
+- [[#applications-1][Applications]]
+  - [[#riemann-sum][Riemann Sum]]
+  - [[#first-fundamental-theorem-of-calculus][First Fundamental Theorem of Calculus]]
+  - [[#second-fundamental-theorem-of-calculus][Second Fundamental Theorem of Calculus]]
+  - [[#mean-value-theorem][Mean Value Theorem]]
+  - [[#area][Area]]
+  - [[#arcs-length][Arc's Length]]
+  - [[#solid-of-revolution][Solid of Revolution]]
+  - [[#surface-of-revolution][Surface of Revolution]]
+  - [[#momentum---centroid][Momentum - Centroid]]
+  - [[#pappuss-theorem][Pappus's Theorem]]
+- [[#improper-integral][Improper Integral]]
+  - [[#convergence-definition][Convergence Definition]]
+  - [[#convergence-criteria][Convergence Criteria]]
+  - [[#gamma-function][Gamma Function]]
+  - [[#beta-function][Beta Function]]
+- [[#infinite-series][Infinite Series]]
+  - [[#definition-1][Definition]]
+  - [[#seriess-terms-n-th-sum][Series's Terms: n-th Sum]]
+  - [[#geometric-series][Geometric Series]]
+  - [[#telescopic-series][Telescopic Series]]
+  - [[#convergence-criteria-1][Convergence Criteria]]
+  - [[#convergence-of-a-series][Convergence of a Series]]
 
-* Definición
-Sea \(f(x)\) definida en un punto \(x_o\) de \((a,b)\). Se define la derivada de
-\(f(x)\) en \(x=x_o\) como
+* Abstract
 
-\[
-f'(x_o)=\lim_{h \to 0}
-\frac
-{f(x_o+h) - f(x_o)}
-{h}
-\]
-siempre que este límite exista.
-También, se puede definir la derivada de otras maneras equivalentes como
+This is a journal of calculus problems made to practice calculus notation on
+Latex, based on Rodrigo Hidalgo Barra's Ejercicios Resueltos de Cálculo
+Integral (Solved Integral Calculus Problems); handbook that has been added
+a chapter of derivatives post publishing.
 
-\[
-f'(x_o)=\lim_{h \to 0}
-\frac
-{f(x_o+h) - f(x_o)}
-{h}
-\]
+* Introduction
 
-* Local variables :noexport:
-# Local Variables:
-# ispell-local-dictionary: "espanol"
-# End:
+This document's object is to support the material seen in classes by
+handling a variety of integral calculus and infinite series problems.
+Despite theorems and formulae are briefed they are not demonstrated, they
+are only applied without further analysis.
+
+The first chapter possesses 120 undefined integrals solved by classic
+different integration methods. Second chapter accounts The Two Fundamental
+Calculus Theorems and their applications. Third chapter consists of
+problematic integrals concerning improper integrals, convergence criteria
+and beta/gamma functions. Lastly, in the fourth chapter Infinite Series
+and their convergence criteria are approached.
+
+[Note that a chapter of derivatives has been added to this particular
+handbook after purchase, chapter that has been placed first thing in order
+to correspond the way it is taught in the first semesters of a regular
+engineering degree].
+
+\hfill Adaption of actual handbook's Introduction.
+
+\hfill May 26, 2019, Sunday.
+
+* Derivative
+** Definition
+** Side Derivative
+** Derivability and Continuity
+** Higher Order Derivatives
+** Interpretation of a Derivative
+** Basic Derivation Rules
+** Implicit Derivatives
+** Exponential and Logarithmic Derivatives
+** Trigonometric Derivatives
+** Inverse Trigonometric Derivatives
+** Parametric Derivatives
+** L'H\^opital's Rule
+** Solved Problems
+*** Simple (1-17)
+*** Logaritmic Derivative (18-20)
+*** Higher Order Derivatives (21-31)
+*** Parametric Derivatives (32-36)
+*** L'H\^opital's Rule (37-44)
+** Applications
+*** Solved Problems
+* Indefinite Integral
+** Differential
+** Direct
+** Substitution
+** By Parts
+** Trigonometric Functions
+** Trigonometric Substitution
+** Partial Fractions
+** Irrational Functions
+** Substitution: t=tg($\theta$\,/2)
+** Solved Problems
+* Applications
+** Riemann Sum
+** First Fundamental Theorem of Calculus
+** Second Fundamental Theorem of Calculus
+** Mean Value Theorem
+** Area
+** Arc's Length
+** Solid of Revolution
+** Surface of Revolution
+** Momentum - Centroid
+** Pappus's Theorem
+* Improper Integral
+** Convergence Definition
+** Convergence Criteria
+** Gamma Function
+** Beta Function
+* Infinite Series
+** Definition
+** Series's Terms: n-th Sum
+** Geometric Series
+** Telescopic Series
+** Convergence Criteria
+** Convergence of a Series
